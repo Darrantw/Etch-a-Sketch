@@ -1,0 +1,28 @@
+
+/*margins -left & -right center the div horizontally. 
+position:relative maintains the div in the center upon resizing.
+*/
+
+#container{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 960px;
+    position: relative;
+    display: grid;   /*
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: */
+    grid-gap: 2px;
+    
+}
+
+.grid-items {
+    align-self: start;
+    background: orange;
+    flex-grow: 1;
+    width: squareSize;
+    padding-bottom: 100%;
+    filter: 0%;
+    
+}
+
